@@ -1,0 +1,14 @@
+[project]
+name = "source-sans"
+version = "0.1.0"
+description = "Source Sans 3 font build"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "hellbox",
+    "hellbox-afdko",
+]
+
+[tool.uv.sources]
+hellbox = { git = "https://github.com/hellboxpy/hellbox.git" }
+hellbox-afdko = { path = "../hellbox-afdko", editable = true }

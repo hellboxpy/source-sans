@@ -9,6 +9,9 @@ dependencies = [
     "hellbox-afdko",
 ]
 
+[dependency-groups]
+dev = ["mdformat"]
+
 [tool.uv.sources]
 hellbox = { git = "https://github.com/hellboxpy/hellbox.git" }
 hellbox-afdko = { path = "../hellbox-afdko", editable = true }
